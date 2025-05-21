@@ -1,0 +1,16 @@
+#DateTimeEx1.py
+from datetime import datetime
+td=datetime.now()
+print("Type of td=",type(td))
+print("----------------------------------------------")
+print("Today Date and Time")
+print(td)
+print("\tYear=",td.year)
+print("\tMonth=",td.month)
+print("\tDay=",td.day)
+print("----------------------------------------------")
+print("\tHours=",td.hour)
+print("\tMinutes=",td.minute)
+print("\tSeconds=",td.second)
+print("\tMicro Seconds=",td.microsecond)
+print("----------------------------------------------")

@@ -1,0 +1,56 @@
+			========================================================
+							Full Stack Python
+			========================================================
+=>The Full Stack Python Contains the Following Parts
+***********************************************
+Part-1: Python Programming------Back Bone for Full Stack
+***********************************************
+	i. Core Python
+	ii. Advanced Python
+Number Projects: 2 
+***********************************************
+Part-2: Python for Data Science
+***********************************************
+	i. numpy module
+	ii. pandas module
+	iii. matplotlib
+Projects: 3 -----EDA Projects
+***********************************************
+Part-3: UI Technologies OR Front-End Technologies
+***********************************************	
+	i. HTML
+	ii. CSS
+	iii. Java Script
+	iv Boot Strap
+	v. Angular / React 
+Project: Static Web Project
+***********************************************
+Part-4: Dynamic Web Frame Works
+***********************************************
+	i. Django
+	ii. Flask
+	iii. Rest API
+Project: Dynamic Web Project
+***********************************************
+Part-5: Database Softwares
+***********************************************
+	i. MySQL
+	ii. Mongo DB
+***********************************************
+Part-6: Tools
+***********************************************
+	i.  Git , Github OR GitLab
+	ii. Testing Methodolgies
+	iii. Cloud Basics--AWS, GCP
+	iv. Resume Building
+***********************************************
+=>U need not know ---- C, C++, Java, C#.net--------- (Dummy Student)
+=>Get the Job in the Industry--Student Must have STRONG CODING SKILLS---
+=>KVR-- makes u Expert Provided  Student must do the following
+
+			1. Student Attend the Class puntually
+			2. Student must read the notes Daily
+			3. Student Must do Assigments / Use Cases / Programs
+			4. Student Respond in the class 
+===================================================================================
+

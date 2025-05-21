@@ -1,0 +1,66 @@
+					====================================================
+							Files OR Streams in Python
+					====================================================
+Index
+----------------------------------------------------------
+=>Purpose of Files
+=>Types of Applications
+		a) Non-Persistant Applications
+		b) Persistant Applications
+=>Definition of Files and Stream
+=>Types of Files
+		a) Text Files
+		b) Binary Files
+=>Operations on Files
+		a) Write Operation
+		b) Read Operation
+---------------------------------------------------------
+=>File Opening Modes
+			a) r   b) w  c) a
+			d) r+ e) w+ f) a+
+			g) x  h) x+
+=>Number of Approaches to Open the File
+		a) By using " open() "
+		b) By using " with open() as "
+=>Programming Examples
+=>Writing the Data to the File
+		a) write()
+		b) writelines()
+=>Reading the Data from Files
+		a) read()
+		b) readlines()
+=>Programming Examples
+=>Random Access Files
+		a) seek()
+		b) tell()
+=>Programming Examples
+-----------------------------------------------------------------
+=>Working Pickling (Serialization) and Un-Pickling(De-Serialization) Operations
+=>Implementation of Pickling and Un-Pickling Operations with 'pickle' module
+=>pickle module
+		a) pickle.dump()
+		b) pickle.load()
+=>Programming Examples
+=>Project Implementation
+-------------------------------------------------------------------
+=>Working with 'CSV' Files(MS-Excel)
+=>Operations on CSV Files with 'csv' Modules
+=>'csv' module
+		a) csv.reader()
+		b) csv.writer()
+		c) csv.DictReader()
+		d) csv.DictWriter()
+=>Programming Examples
+-------------------------------------------------------------------
+=>Working with JSON Files
+=>Operations on JSON Files with 'json' Module
+=>'json' Module
+		a) json.loads()
+		b) json.dump()
+		c) json.load()
+=>Programming Examples
+-------------------------------------------------------------------
+=>Working with OS Based Operations
+=>Implementation of OS Based Operations with 'os' Module
+=>Programming Examples
+-----------------------------------------------------------------------------x----------------------------------------------------------------------

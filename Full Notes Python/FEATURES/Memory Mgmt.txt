@@ -1,0 +1,42 @@
+
+Memory----------------------------->To store Data
+			
+			Main Memory(RAM):  Temporary Memory
+							     Data Processed
+
+
+			Secondary Memory(HDD)
+					i. Files
+					2. Database Softwares
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Memory Management:   Data Storage + Data Processing + Data Ret +Performance
+
+	C,C++
+	Java
+	PYTHON
+---------------------------------------------------------------------------------------------------------------------------------------------------
+C, C++ : I want to 100 Integer Values--------So that --I will Use the Concept of ARRAYS
+
+			ARRAYS:    int  a[100];
+
+			=>100 Memory locations Allocated 
+			=>We Got 5 Values and Stored 5 Memory Locations Used
+			=>So that 95 Memory Locations are Un-Used--Is not Memory Wasted
+							Q . How Can u Eliminate Un-Used  Memory Space in C ?
+									There is no concept to delete Un-Used Memory Space in C
+									So C Programmer has to write their Own Code
+												for Removing Un-Used Memory Space--Very Complex
+
+When we Come the Lang: Java , PYTHON, C#.net
+		
+		There is a Concept called Garbage Collector--already developed by lang Devlopers itself--Lang
+
+MyProg.py
+------------------------
+=>100 Memory locations Allocated 
+			=>We Got 5 Values and Stored 5 Memory Locations Used
+			=>So that 95 Memory Locations are Un-Used--Is not Memory Wasted
+							Q . How Can u Eliminate Un-Used  Memory Space in PYTHON ?
+									There is  concept to delete Un-Used Memory Space GC
+									So PYTHON Programmer NEED NOT to write their Own Code
+												for Removing Un-Used Memory Space--Very Easy

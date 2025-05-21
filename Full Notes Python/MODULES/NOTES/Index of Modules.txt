@@ -1,0 +1,33 @@
+				================================================
+						Modules in Python
+				================================================
+Index
+-----------------
+=>Purpose of Modules	
+=>Differences between Function and Modules
+=>Definition of Module
+=>Types of Modules
+		a) Pre-Defined OR Built-In Modules
+		b) Progrmmer OR User OR Custom-Defined Modules
+=>Development of Progrmmer OR User OR Custom-Defined Modules
+=>Programming Examples
+=>Understanding about __pycache__   Folder
+=>Number of approaches to Re-Use the Features of Modules
+		a) By using 'import Statement'
+				Syntax-1:  import module name1
+						  import module name2
+						  ------------------------------
+						  import module name-n
+
+				Syntax-2: import module name1,module name2,....module name-n
+				Syntax-3: import module name1 as alias name
+						 import module name2 as alias name
+						 ----------------------------------------------------
+				Syntax-4: import module name1 as alias name,module name2 as alias name,....module name-n as 
+				                                                                           alias name
+		b) By Using 'from....import Statement'
+				Syntax-1:  from modulename import global var,function names.....
+				Syntax-2: from modulename import global var as aliasname ,function names as alias name..
+				Syntax-3: from module name import *
+=>Programming Examples
+===========================================x====================================

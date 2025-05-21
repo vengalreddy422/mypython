@@ -1,0 +1,167 @@
+				==================================================
+							Nested OR Inner Dict Part-1
+									OR
+							Complex Dict Concept
+								OR
+						Combination of dict with dict,set,tuple and list
+				==================================================
+==============================================================================================
+Case1:  dict in dict -------Nested Dict Possible to Define
+==============================================================================================
+Examples
+------------------
+>>>d1={"sno":10,"name":"RS","IntMarks":{"CM":17,"CPP":15,"PYM":18},"ExtMarks":{"CM":66,"CPP"\:62,"PYM":67},"colname":"JNTU"}
+>>> print(d1,type(d1))
+{'sno': 10, 'name': 'RS', 'IntMarks': {'CM': 17, 'CPP': 15, 'PYM': 18}, 'ExtMarks': {'CM': 66, 'CPP': 62, 'PYM': 67}, 'colname': 'JNTU'} <class 'dict'>
+>>> for k,v in d1.items():
+...		print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+		sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+		name --> RS ---> <class 'str'> ---> <class 'dict'>
+		IntMarks --> {'CM': 17, 'CPP': 15, 'PYM': 18} ---> <class 'dict'> ---> <class 'dict'>
+		ExtMarks --> {'CM': 66, 'CPP': 62, 'PYM': 67} ---> <class 'dict'> ---> <class 'dict'>
+		colname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+>>> d1.get("sno")
+10
+>>> d1["sno"]
+10
+>>> d1.get("IntMarks")-----------{'CM': 17, 'CPP': 15, 'PYM': 18}
+>>> d1["IntMarks"]----------------{'CM': 17, 'CPP': 15, 'PYM': 18}
+>>> d1["IntMarks"]["CPP"]=19
+>>> print(d1,type(d1))
+{'sno': 10, 'name': 'RS', 'IntMarks': {'CM': 17, 'CPP': 19, 'PYM': 18}, 'ExtMarks': {'CM': 66, 'CPP': 62, 'PYM': 67}, 'colname': 'JNTU'} <class 'dict'>
+>>> d1.get("ExtMarks")["PYM"]=65
+>>> print(d1,type(d1))
+{'sno': 10, 'name': 'RS', 'IntMarks': {'CM': 17, 'CPP': 19, 'PYM': 18}, 'ExtMarks': {'CM': 66, 'CPP': 62, 'PYM': 65}, 'colname': 'JNTU'} <class 'dict'>
+>>> d1["ExtMarks"]["CPP"]=d1["ExtMarks"]["CPP"]+(d1["ExtMarks"]["CPP"])*10/100
+>>> print(d1,type(d1))
+{'sno': 10, 'name': 'RS', 'IntMarks': {'CM': 17, 'CPP': 19, 'PYM': 18}, 'ExtMarks': {'CM': 66, 'CPP': 68.2, 'PYM': 65}, 'colname': 'JNTU'} <class 'dict'>
+>>>
+>>> d1["IntMarks"]["CM"]+d1["ExtMarks"]["CM"]
+83
+>>> d1["IntMarks"]["CPP"]+d1["ExtMarks"]["CPP"]
+87.2
+>>> d1["IntMarks"]["PYM"]+d1["ExtMarks"]["PYM"]
+83
+>>> d["TOTAL"]={"CM":d1["IntMarks"]["CM"]+d1["ExtMarks"]["CM"]}
+>>> print(d1,type(d1))
+{'sno': 10, 'name': 'RS', 'IntMarks': {'CM': 17, 'CPP': 19, 'PYM': 18}, 'ExtMarks': {'CM': 66, 'CPP': 68.2, 'PYM': 65}, 'colname': 'JNTU'} <class 'dict'>
+>>> d1["TOTAL"]={"CM":d1["IntMarks"]["CM"]+d1["ExtMarks"]["CM"]}
+>>> print(d1,type(d1))
+{'sno': 10, 'name': 'RS', 'IntMarks': {'CM': 17, 'CPP': 19, 'PYM': 18}, 'ExtMarks': {'CM': 66, 'CPP': 68.2, 'PYM': 65}, 'colname': 'JNTU', 'TOTAL': {'CM': 83}} <class 'dict'>
+>>> d1["TOTAL"]={"CPP":d1["IntMarks"]["CPP"]+d1["ExtMarks"]["CPP"]}
+>>> d1["TOTAL"]={"PYM":d1["IntMarks"]["PYM"]+d1["ExtMarks"]["PYM"]}
+>>> print(d1,type(d1))
+{'sno': 10, 'name': 'RS', 'IntMarks': {'CM': 17, 'CPP': 19, 'PYM': 18}, 'ExtMarks': {'CM': 66, 'CPP': 68.2, 'PYM': 65}, 'colname': 'JNTU', 'TOTAL': {'PYM': 83}} <class 'dict'>
+>>> d1["TOTAL"]={"CPP":d1["IntMarks"]["CPP"]+d1["ExtMarks"]["CPP"],"CM":d1["IntMarks"]["CM"]+\d1["ExtMarks"]["CM"]}
+>>> d1["TOTAL"]={"CPP":d1["IntMarks"]["CPP"]+d1["ExtMarks"]["CPP"],"CM":d1["IntMarks"]["CM"]+\d1["ExtMarks"]["CM"],"PYM":d1["IntMarks"]["PYM"]+d1["ExtMarks"]["PYM"]}
+>>> print(d1,type(d1))
+{'sno': 10, 'name': 'RS', 'IntMarks': {'CM': 17, 'CPP': 19, 'PYM': 18}, 'ExtMarks': {'CM': 66, 'CPP': 68.2, 'PYM': 65}, 'colname': 'JNTU', 'TOTAL': {'CPP': 87.2, 'CM': 83, 'PYM': 83}} <class 'dict'>
+---------------------------------------
+>>> for k,v in d1.items():
+...     print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+name --> RS ---> <class 'str'> ---> <class 'dict'>
+IntMarks --> {'CM': 17, 'CPP': 19, 'PYM': 18} ---> <class 'dict'> ---> <class 'dict'>
+ExtMarks --> {'CM': 66, 'CPP': 68.2, 'PYM': 65} ---> <class 'dict'> ---> <class 'dict'>
+colname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+TOTAL --> {'CPP': 87.2, 'CM': 83, 'PYM': 83} ---> <class 'dict'> ---> <class 'dict'>
+>>> d1["TOTAL"].pop("CM")
+83
+>>> for k,v in d1.items():
+...     print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+name --> RS ---> <class 'str'> ---> <class 'dict'>
+IntMarks --> {'CM': 17, 'CPP': 19, 'PYM': 18} ---> <class 'dict'> ---> <class 'dict'>
+ExtMarks --> {'CM': 66, 'CPP': 68.2, 'PYM': 65} ---> <class 'dict'> ---> <class 'dict'>
+colname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+TOTAL --> {'CPP': 87.2, 'PYM': 83} ---> <class 'dict'> ---> <class 'dict'>
+>>> d1.pop("TOTAL")
+{'CPP': 87.2, 'PYM': 83}
+>>> for k,v in d1.items():
+...     print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+name --> RS ---> <class 'str'> ---> <class 'dict'>
+IntMarks --> {'CM': 17, 'CPP': 19, 'PYM': 18} ---> <class 'dict'> ---> <class 'dict'>
+ExtMarks --> {'CM': 66, 'CPP': 68.2, 'PYM': 65} ---> <class 'dict'> ---> <class 'dict'>
+colname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+>>> for k,v in d1["ExtMarks"].items():
+...     print(k,"--->",v)
+...
+CM ---> 66
+CPP ---> 68.2
+PYM ---> 65
+>>> for k,v in d1.get("ExtMarks").items():
+...     print(k,"--->",v)
+...
+CM ---> 66
+CPP ---> 68.2
+PYM ---> 65
+==================================================================================
+Case2:  set in dict -----Possible
+==============================================================================================
+Examples
+----------------------------------
+>>> d1={"sno":10,"name":"RS","IntMarks":{15,16,14},"ExtMarks":{65,62,67},"cname":"JNTU"}
+>>> for k,v in d1.items():
+...		print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+		sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+		name --> RS ---> <class 'str'> ---> <class 'dict'>
+		IntMarks --> {16, 14, 15} ---> <class 'set'> ---> <class 'dict'>
+		ExtMarks --> {65, 67, 62} ---> <class 'set'> ---> <class 'dict'>
+		cname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+>>> for vals in d1["IntMarks"]:
+...		 print(vals)
+...
+			16
+			14
+			15
+>>> for vals in d1.get("IntMarks"):
+...		print(vals)
+...
+			16
+			14
+			15
+>>> d1["IntMarks"].remove(16)
+>>> for k,v in d1.items():
+...		print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+		sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+		name --> RS ---> <class 'str'> ---> <class 'dict'>
+		IntMarks --> {14, 15} ---> <class 'set'> ---> <class 'dict'>
+		ExtMarks --> {65, 67, 62} ---> <class 'set'> ---> <class 'dict'>
+		cname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+>>> d1["ExtMarks"].clear()
+>>> for k,v in d1.items():
+...		print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+		sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+		name --> RS ---> <class 'str'> ---> <class 'dict'>
+		IntMarks --> {14, 15} ---> <class 'set'> ---> <class 'dict'>
+		ExtMarks --> set() ---> <class 'set'> ---> <class 'dict'>
+		cname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+>>> d1["ExtMarks"].add(66)
+>>> d1["ExtMarks"].add(63)
+>>> d1["ExtMarks"].add(68)
+>>> for k,v in d1.items():
+...		print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+		sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+		name --> RS ---> <class 'str'> ---> <class 'dict'>
+		IntMarks --> {14, 15} ---> <class 'set'> ---> <class 'dict'>
+		ExtMarks --> {66, 68, 63} ---> <class 'set'> ---> <class 'dict'>
+		cname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+>>> d1.get("IntMarks").add(17)
+>>> for k,v in d1.items():
+...	 print(k,"-->",v,"--->",type(v),"--->",type(d1))
+...
+		sno --> 10 ---> <class 'int'> ---> <class 'dict'>
+		name --> RS ---> <class 'str'> ---> <class 'dict'>
+		IntMarks --> {17, 14, 15} ---> <class 'set'> ---> <class 'dict'>
+		ExtMarks --> {66, 68, 63} ---> <class 'set'> ---> <class 'dict'>
+		cname --> JNTU ---> <class 'str'> ---> <class 'dict'>
+=========================================================================================

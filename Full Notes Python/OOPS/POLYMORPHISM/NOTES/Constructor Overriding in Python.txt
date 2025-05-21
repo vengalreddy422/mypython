@@ -1,0 +1,10 @@
+		===========================================
+			Constructor Overriding in Python
+		===========================================
+=>Constructor Overriding=Constructor Heading is same + Method Body is Different
+			(OR)
+=>The process of re-defining the original Constructor of base class into various derived classes for Initlizing  different Obejcts with Different values  is called Constructor Overriding.
+=>To use Constructor Overriding in python program we must apply Inheritance Principle.
+=>Constructor Overriding used for implementing Polymorphism Principle.
+    ( PLOYMORPHISM<----Constructor OVERRIDING<-----INHERITANCE<----CLASS AND OBJECTS )
+-------------------------------------------------------------------------------------------------------------------------------------------------------

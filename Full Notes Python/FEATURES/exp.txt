@@ -1,0 +1,32 @@
+
+Task: Generate  QR CODE 
+
+Task: Send an SMS from Device to another Device
+
+Task: Generate Calendar of a Month
+
+Task: Voice into Text and Text to Voice--MODULE
+---------------------------------------------------------------------------------------
+Student Must Keep in Mind---Learning   Library  is Mandatory
+
+Library<---Source of Pre-Defined Code--So that Programmers can Re-Use the Pre-Defined Code 
+
+C Lang---Libraries---Header Files-----
+c++ LangLibraries---Header Files-----
+Java Programming---Libraries are called ----Packages
+
+PYTHON----- LangLibraries---MODULES
+
+
+My Task: Generate Calendar of a Month
+--------------------------------------------------------------------
+	C , C++ Prog Lang----- Generate Calendar of a Month---- 450 Lines of Code--No Library Present--Very Complex
+	Java Programming Lang--Generate Calendar of a Month-- 25 Lines----Easy--Java Contains Package--java.util.
+	PYTHON-------Generate Calendar of a Month----2 Lines----Dead Easy----MODULE-----calendar
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+function: Performing Operations
+
+
+module---Functions, 
+

@@ -1,0 +1,15 @@
+#DateWithTimeFmtsEx1.py
+from datetime import datetime
+td=datetime.now()
+print("Type of td=",type(td))
+print("----------------------------------------------")
+print("Today Date and Time")
+print(td)
+print("----------------------------------------------")
+print("\tHour 00-23=",td.strftime("%H"))
+print("\tHour 00-12=",td.strftime("%I"))
+print("\tAM/PM=",td.strftime("%p"))
+print("\tMinute 00-59=",td.strftime("%M"))
+print("\tSecond 00-59=",td.strftime("%S"))
+print("\tMicrosecond 000000-999999=",td.strftime("%f"))
+print("----------------------------------------------")

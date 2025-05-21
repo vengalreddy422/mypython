@@ -1,0 +1,58 @@
+				===================================================
+							Functions in Python
+						Functions(8)----->Modules(2)----->Packages(1)
+				===================================================
+-----------------------------------------------------------------------------
+Index
+----------------------------------------------------------------------------
+=>Purpose Of Functions.
+=>Types of languages
+		a) Un-Structured Programming Languages
+		b) Structured Programming Languages
+=>Advantages of Functions
+=>Parts of Functions
+=>Phases in Functions
+=>Syntax for Defining Functions 
+=>Number of Approaches to Define Functions.
+=>Programming Examples
+----------------------------------------------------------------------------------------------
+=>Arguments and Parameters
+=>Types of Arguments and Parameters
+		a) Posstional Arguments
+		b) Default Arguments
+		c) Keyword Arguments
+		d) Variable Length Arguments
+		e) Keyword Variable Length Arguments
+=>Programming Examples
+----------------------------------------------------------------------------------------------
+=>Local and Global Variables
+=>Proghramming Examples
+=>global Keyword
+=>Programming Examples
+=>globals()
+=>Programming Examples
+----------------------------------------------------------------------------------------------
+=>Comprehension Techniues
+	a) List Comprehension
+	b) set Comprehension
+	c) Dict Comprehension
+	d) tuple Comprehension(not there)
+=>Programming Examples
+----------------------------------------------------------------------------------------------
+=>Working with Anonymous functions OR Lambda Functions
+=>Implementation Anonymous functions OR Lambda Functions with lambda Keyword
+=>Programming Examples
+----------------------------------------------------------------------------------------------
+=>Special Functions in Python
+		a) filter() with Normal and Anonymous Functions
+		b) map() with Normal and Anonymous Functions
+		c) reduce() with Normal and Anonymous Functions
+=>Programming Examsples
+================================================x===========================================
+=>Decorators
+=>Closures
+=>Generators
+=>Iterators
+==========================================================================================
+
+

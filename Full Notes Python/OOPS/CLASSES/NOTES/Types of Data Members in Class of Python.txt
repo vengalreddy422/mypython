@@ -1,0 +1,38 @@
+				============================================================
+						Types of Data Members in Class of Python
+what is data member?
+=>In python a data member also known as an attribute,is a variable associated with a class and its object .
+  It stored data related to the class.data members can be accessed and modify using dot notation
+				============================================================
+=>In class of Python, we can Define Two Types of Data Members. They are
+
+				1. Instance Data Members
+				2. Class Level Data Members
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Instance Data Members
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>The Purpose of Instance Data Members is that "To Store Specificy Values"
+=>The Instance Data Members Memory  Space Created Every Time when an object is created and hence
+ 	Instance Data Members are also called object Level Data Members.
+=>In Python Programming, Instance Data Members can be Defined / Specified in 3 Ways.
+				1. Through an Object
+				2. Through  in  an Instance Method
+				3. Through  the Constructor
+=>In Python Programming, Instance Data Members can be Accessed in 2 Ways.
+			Syntax1:   ObjectName.Instance Data Member Name
+			Syntax2:   self.Instance Data Member Name ( To be Used Inside of Instance Method only)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Class Level Data Members
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>The Purpose of Class Level Data Members is that " To store Common Values".
+=>The Class Level Data Members memory space  created Only Once Irrespective Number of Objects Created.
+=>In Python Programming, Class Level Data Members can be Defined / Specified in 3 Ways.
+				1. In Side of Class Definition
+				2. In Side of Main Program
+				3. In Side of Class Level Method
+=>In Python Programming, Instance Data Members can be Accessed in 4 Ways.
+			Syntax1:   ClassName.Class Level  Data Member Name
+			Syntax2:   cls.Class Level  Data Member Name ( To be Used Inside of Class Level Method only)
+			Syntax3:   ObjectName.Class Level  Data Member Name
+			Syntax4:   self.Class Level  Data Member Name ( To be Used Inside of Instance Method only)
+------------------------------------------------------------------------------------------------------------------------------------------------------------

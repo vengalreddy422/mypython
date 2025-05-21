@@ -1,0 +1,30 @@
+			========================================================
+					Why to Learn Full Stack Python----
+			========================================================
+=>To get the Job in the Industry-2024
+			multiple skill set is Required---By Combining lots of Lang / Tech-- One Stack
+
+					1. Full Stack Web Development
+					2. Full Stack Java Development
+					3. Full Stack Python Development-----So Popular
+
+B.Tech (Any Branch), MCA, M.Tech, MSc, B.Com, BSc, BCA,MBA, ......From Colleges (Non-IIT, Non-NIT, NON-IIIT)					doubts---75% People--No Placements from Colleges
+===================================================================================
+	What is the Role Full Stack Python Developers in Companies in Project Development
+===================================================================================
+		1. Development of User-Interfaces / Front-End Applications
+		2. Development of Back-End Applications / Server Side Applications and Data Processing
+		3. Developement of Data Manegement Softwares---SQL --MYSQL and NoSQL--MongoDB
+		4. Integration of THIRD PARTY APIs
+		5. Clean and Maintainable Code
+		6. Practcing to Version Control
+		7. Debugging and testing code---Project development Life Cycle
+		8. Security to the Applications
+		9. Integrating Cloud Tech--AWS, GCP,......etc
+======================================================================================
+
+from Admin Shubham to everyone:    6:23 PM
+Python & Full Stack Python @ 6:00 PM (IST) by Mr.K.V.Rao sir 
+Day-1 https://youtu.be/LAtGpwKuaQI
+Day-2 https://youtu.be/rpqrUQlJO1o
+===================================================================================

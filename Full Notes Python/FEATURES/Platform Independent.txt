@@ -1,0 +1,33 @@
+				=================================================
+						2.  Platform Independent 
+				=================================================
+=>A Platform is nothing But Type of OS Being Used for Executing OR Running the Application OR Program.
+*******************************************
+What is OS (Operating System)
+*******************************************
+=>OS is System Software which acts as Interface between Program and Computer Hardware
+						OR
+=>OS is System Software which acts as Resources (RAM , Hard Disk, Processor-CPU, Secondary Memory-HDD..etc) allocation manger during the Program Execution and also acts as Resource De-allocation manager after Program Execution.
+------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Industry , we have Two Types of Programming Languages. They are
+
+			1. Platform Dependent Languages
+			2. Platform Independent  Languages
+-------------------------------------------------------------------------------------
+1. Platform Dependent Languages
+-------------------------------------------------------------------------------------
+=>In Platform Dependent Lang, Data Types differes from One OS to Another OS and and These Lang are PLATFORM DEPENDENT.
+Example:   C,C++....etc
+-------------------------------------------------------------------------------------
+2. Platform Independent  Languages
+-------------------------------------------------------------------------------------
+=>In Platform Independent Lang, The Memory Space taken by Data Types  remains Same on All Types OSes.
+=>In Effective Platform Independent Lang, all types of Values will store in the form of OBJECTs and they can store 
+   Un-Limited amount of data
+=>Hence java Object contains Size Restricted and Memory space Restricted where Python Objects contains Un-limited 
+   Size and unlimited values can store.
+
+NOTE: IN PYTHON ALL VALUES ARE STOREd IN THE OF OBJECTS.
+Examples:   Java, PYTHON
+-------------------------------------------------------------------------------------
+

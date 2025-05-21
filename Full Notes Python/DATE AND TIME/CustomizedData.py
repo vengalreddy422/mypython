@@ -1,0 +1,21 @@
+#CustomizedData.py
+from datetime import datetime
+now = datetime.now() # current date and time
+year = now.strftime("%Y")
+print("year:", year)
+month = now.strftime("%m")
+print("month:", month)
+day = now.strftime("%d")
+print("day:", day)
+print("--------------------------------------------------")
+time = now.strftime("%H:%M:%S")
+print("time:", time)
+print("--------------------------------------------------")
+date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
+print("date and time:",date_time)	
+print("--------------------------------------------------")
+date_time = now.strftime("%d/%m/%Y, %H:%M:%S")
+print("date and time:",date_time)	
+print("--------------------------------------------------")
+date_time = now.strftime("%d-%m-%Y")
+print("date :",date_time)	

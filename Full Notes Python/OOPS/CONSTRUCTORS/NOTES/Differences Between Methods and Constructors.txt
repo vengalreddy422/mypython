@@ -1,0 +1,18 @@
+			======================================================================
+					Differences Between Methods and Constructors
+			=====================================================================
+--------------------------------------------------------------------
+Methods
+--------------------------------------------------------------------
+=>The Purpose of Methods is that "To Perform an Operation and provides Code Re-usability"			
+=>The Method Definition Must Be called Explicitly through Method Call.
+=>The Method Defintion May OR May Not contain return statement OR A Method can return a Value.
+=>The Method Name can be any valid Varname.
+--------------------------------------------------------------------
+Constructors
+--------------------------------------------------------------------
+=>The purpose of Constructors in python is that " To initlize the object".			
+=>Constructors will  be called by PVM   automatically / implciitly during object creation.
+=>The Constructors Shoud Not Return Any Value (can return None).
+=>The Constructor Name is always    def __init__(self, List of Formal Params):pass
+================================================x===================================

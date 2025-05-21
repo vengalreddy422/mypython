@@ -1,0 +1,197 @@
+
+	Types of applications
+	----------------------------------
+	1) Non-Persistant Applications
+							=>we read the data from KBD  and Stored in MM(RAM)
+							we process with Logic and displayed on Console(Moniter)
+							
+			Any Data Stored in Main memory (RAM), That Data is Temporary----Power-on/ active
+			once the Power is off / Program is De-Actvated--result of the Program will Lost.
+			NON-PERSISTENCY
+
+	2. Persistant Applications:
+	---------------------------------------
+		The meaning of Persistant is "To store the Data Permanently".
+	=>we read the data from KBD  and Stored in MM(RAM)
+	   we process with Logic and displayed on Console(Moniter) and
+	   we the result of the Program Permanently.
+
+Any Organization-------------Data--Palying Imp Role--Effective Decisions.
+					     Data --Must Stored Permanently.
+								1. By using Files
+								2. By using RDBMS Data Base Softwares
+										(Oracle,MySQL,Mongo DB, Postgrey SQL, DB2, SQLITE3..etc)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+					Data Persistency by using Files
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Purpose of Files      :   Data Persistency
+=>Definition of File      :  A File  is a Collection of Records(Flat File)
+=>What is File Name   :  A File Name is one of the Named Location in Secondary Memory (HDD).
+=>Where File Resides : Files always resides Secondary Memory (HDD).
+Hence Object Data of Main Memory becomes record in the file of Secondary Memory and
+record of  file of Secondary Memory becomes  Object in Main memory (called Stream)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+					Types of Operations on Files
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.Write Operatioon:   
+Purpose:  Transfer OR Save the Object Data into File of Secondary Memory
+Steps:
+		1. Choose the File Name 
+		2. Open the File Name in Write Mode
+		3. Perform Cycle Write Operations.
+Exceptions
+-----------------
+			OSError
+			FileExistError
+			IOError
+-----------------------------------
+2. Read Operation
+-----------------------------------
+Purpose: To Read OR Transfer the Records from File of Secondary Memory into Object of Main Memory.
+Steps:
+----------		1. Choose the File Name
+			2. Open the File Name in Read Mode
+			3. Perform Cycle of Read Operations.
+Exceptions:
+-----------------
+				FileNotFoundError
+				EOFError
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+				Types of Files2
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Classified into  TWO Types. They are
+
+			1. Text Files:
+					=>Contains the Data in the form Alphabets, Digits and Special Symbols.
+					=>Denoated by a letter 't' (By Default)
+					Examples:    .txt
+							      .py
+							      .c
+							      .cpp   .java.......Files
+							      .doc 
+							      xls 
+
+			2. Binary Files:
+					=>Contains the Data in the Binary Format (pixels)
+					=>=>Denoated by a letter 'b' 
+
+				Examples:	All Images ( .png , .jpeg, jpg, .gif....etc)
+							Audio and video Files (.mvi, .avi. .mp3........)
+							PDF with Images---
+							.doc with the images
+							xls--with images
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+============================================================
+							File Opening Modes
+============================================================
+=>The Purpose of File Opening Modes makes us to understand, In which Mode we are  opening the File Name.
+=>In Python Programming, we have 8 File Opening modes.
+				1. r
+				2. w
+				3. a
+			----------------------
+				4. r+
+				5. w+
+				6. a+
+			------------------------
+				7. x
+				8. x+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 . r
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This Mode is used for Opening the File in Read Mode and Perform Read Operations only.
+=>When we use 'r' mode and if the File Name does not Exist then we get FileNotFoundError.
+=>If we don't use any file Mode then By default PVM takes 'r' mode as Deafult file Mode
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. w
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This is Used for Creating File Name and Opened in Write Mode. and Performs Write Operation only.
+=>NEW File Opening----------->Created Newly and Opened in Write Mode
+=>EXISTING File Opening---->Opened in Write Mode and  Existing Data OVERLAPED with NEW Data  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. a
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This is Used for Creating File Name and Opened in Write Mode. and Performs Write Operation only.
+=>NEW File Opening----------->Created Newly and Opened in Write Mode
+=>EXISTING File Opening---->Opened in Write Mode and  Existing Data APPENDED with NEW Data.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+4 . r+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This Mode is used for Opening the File in Read Mode and Perform First Read Operations and Later we can Perform     Write Operation also.
+=>When we use 'r+' mode and if the File Name does not Exist then we get FileNotFoundError.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. w+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This is Used for Creating File Name and Opened in Write Mode and First Performs Write Operation and later we can also Perform Read Operation also.
+=>NEW File Opening----------->Created Newly and Opened in Write Mode
+=>EXISTING File Opening---->Opened in Write Mode and  Existing Data OVERLAPED with NEW Data  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. a+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This is Used for Creating File Name and Opened in Write Mode and First Performs Write Operation  and later 
+    Performs Read Operation also.
+=>NEW File Opening----------->Created Newly and Opened in Write Mode
+=>EXISTING File Opening---->Opened in Write Mode and  Existing Data APPENDED with NEW Data.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+7. x
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This is Used for Creating File Name and Opened eXclusively in write Mode and Performs Write Operation only.
+=>If we open Existing File in "x" mode then we get FileExistError.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+8. x+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This is Used for Creating File Name and Opened Xclusively in write Mode and First Write Operation and later Performs Read Operation also.
+>If we open Existing File in "x+" mode then we get FileExistError.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+				Number of Approaches to Open the File
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>we have 2 Approaches. 
+			1. by using open()
+			2. By using "with open() as "
+-------------------------------------
+1. by using open()
+-------------------------------------
+Syntax:     varname=open("FileName","FileMode")
+=>varname--------->Represents FilePointer and whose type is <class, _io.TextIOWrapper>
+=>open()------------>Pre-Defined Function present 'builtins' and it is used for opening the file base on File Mode
+=>FileName------->Name of the File
+=>FileMode------->Represents  r,w,a,r+,w+,a+,x,x+
+=>Limitation:    U Must Close the File Manually---by using close()-->FilePointer.close()
+			There is no auto-closeability
+--------------------------------------------
+2. By using "with open() as "
+--------------------------------------------
+Syntax:
+--------------
+			with  open("File Name","File Mode") as Varname:
+				---------------------------------------------------
+				---------------------------------------------------
+				---------------------------------------------------
+				---------------------------------------------------
+			------------------------------------------------
+			Other Statements in Program
+			------------------------------------------------
+============================================================================================
+					Writing the Data to the File
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Two Pre-Defined Functions Present in FilePointer Object
+
+			1. write()
+			2. writelines()
+--------------------------------------------------------
+Syntax:     FilepointerObj. write(StrData)
+
+Syntax:    FilepointerObj.writelines(str(Iterable-Object))
+=====================================================================================
+			Reading the Data to the File
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+=>To read the Data from File, we have 2 Pre-Defined Functions. They are
+
+	1. read(): It reads Complete Data of the File and Placed in LHS Variable whose type <class,'str'>
+				Syntax:     varname=FilePointerObj.read()
+
+	2. readlines(): It reads Complete Data of the File and Placed in LHS Variable whose type <class,'list'>
+				
+				Syntax:     varname=FilePointerObj.readlines()
+-------------------------------------------------------------------------------------------------------------------------------------------------------

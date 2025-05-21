@@ -1,0 +1,49 @@
+definition:-
+__dict__ is a dictionary that contains all the writable attributes of an object (or class) as key-value pairs.
+===========================================================
+
+some key point:
+✅ View all attributes of an object at once.
+
+✅ Useful for debugging or logging.
+
+✅ You can dynamically inspect or modify attributes.
+
+✅ Helpful when converting to JSON or dictionaries (e.g., for APIs or saving data).
+------------------------------------------------------------------------------------------------
+
+1. Works with instance objects:
+print(s1.__dict__)
+------------------------------------------------------------------------------
+2. Also works with classes, but shows class-level attributes:
+print(Student.__dict__)  # Class attributes and methods
+-------------------------------------------------------------
+📍 Difference:
+What you use	What it shows
+s1.__dict__	Attributes of that specific object
+Student.__dict__	Class variables, methods, metadata
+--------------------------------------------------------------------------------------
+
+🧪 Class Variable Example:
+class Student:
+    school = "ABC School"  # class attribute
+-----------------------------------------------------------------------------
+    def __init__(self, name):
+        self.name = name    # instance attribute
+-----------------------------------------------------------------------------
+
+s1 = Student("Tom")
+print(s1.__dict__)         # {'name': 'Tom'}
+print(Student.__dict__)    # Contains 'school' and function objects
+-----------------------------------------------------------------------
+✅ Summary
+Feature	Description
+
+__dict__	A dictionary showing all attributes (variables) of an object or class.
+
+On object	 Shows only the attributes belonging to that specific object
+
+On class	Shows class variables, methods, and metadata
+
+Format	Python dictiona
+

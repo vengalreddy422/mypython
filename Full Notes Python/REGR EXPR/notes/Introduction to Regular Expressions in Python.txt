@@ -1,0 +1,27 @@
+				================================================================
+					Introduction to Regular Expressions in Python
+				================================================================
+=>The Regular Expressions Concept is One of Programming Language Independent Concept.
+=>The Purpose of Regular Expressions is that "To Build Robust Applications with Data Validation Rules".
+=>Since Regular Expressions are used To Build Robust Applications with Data Validation Rules, Regular Expressions Concept  Implemented by All Programming Language Developers.
+=>The Regular Expressions Concept  Implemented in Python in the for for a Pre-Defined Module Called 're'.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Applications of  Regular Expressions
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>The  Regular Expressions are Used Development of Language Compilers and Intereprets.
+=>The  Regular Expressions are Used Development of Operating System.
+=>The  Regular Expressions are Used Development of  Universal Protocols.
+=>The  Regular Expressions are Used Development of  Electronic Devices.
+=>The  Regular Expressions are Used Development of Pattern Matching.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Definition of  Regular Expressions
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>The Regular Expression is one the Search Pattern, which is a Combination of Alphabets, Digits and Special Symbols and It used for Matching OR Finding OR Searching in given Data and Obtains Desired Result.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+gd="bUVp5#HLs6KNwc@8aDMxR7Z&"
+
+Find all Upper Case Alphabets
+Find all Lower Case Alphabets
+Find all  Digits
+Find all Special Symbols

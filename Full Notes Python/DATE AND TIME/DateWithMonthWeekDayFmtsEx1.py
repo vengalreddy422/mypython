@@ -1,0 +1,17 @@
+#DateWithMonthWeekDayFmtsEx1.py
+from datetime import datetime
+td=datetime.now()
+print("Type of td=",type(td))
+print("----------------------------------------------")
+print("Today Date and Time")
+print(td)
+print("----------------------------------------------")
+print("\tWeekday, Short version=",td.strftime("%a"))
+print("\tWeekday, Full version=",td.strftime("%A"))
+print("\tWeekday as a number =",td.strftime("%w"))
+print("\tDay of the Month =",td.strftime("%d"))
+print("\tMonth name, short version =",td.strftime("%b"))
+print("\tMonth name, full version =",td.strftime("%B"))
+print("\tYear, short version, without century =",td.strftime("%y"))
+print("\tYear, short version, with century =",td.strftime("%Y"))
+print("----------------------------------------------")

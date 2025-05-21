@@ -1,0 +1,20 @@
+		==========================================
+					comprehension
+		==========================================
+=>Python is famous for allowing you to write code that’s elegant, easy to write, and almost as easy to read as plain English. One of the language’s most distinctive features is the comprehension techinques, which you can use to create powerful functionality within a single line of code rather than writing legacy lines of Code.
+=>The purpose of List comprehension is that to read the values dynamically from key board separated by a delimeter ( space, comma, colon..etc)  within a single line.
+=>List comprehension is the most effective way for reading the data for list instead tradtional reading the data.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-1:		varname=[ Expr1  for VarName in Iterable-Object   if Test Cond ]	  # List Comprehension
+
+Syntax-2		varname=[Expr1  for VarName in Iterable-Object  ]	
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-3:		varname={Expr1  for VarName in Iterable-Object   if Test Cond }   # Set Comprehension
+
+Syntax-4		varname={Expr1  for VarName in Iterable-Object  }	
+------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax-5:		varname={Expr1:Expr2   for VarName in Iterable-Object   if Test Cond }   # Dict Comprehension
+
+Syntax-6		varname={Expr1:Expr2   for VarName in Iterable-Object  }	
+------------------------------------------------------------------------------------------------------------------------------------------------
+=>here expression represents either type casting or mathematical  expression

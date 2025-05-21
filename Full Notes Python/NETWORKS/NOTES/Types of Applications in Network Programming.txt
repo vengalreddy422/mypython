@@ -1,0 +1,29 @@
+				=======================================================
+						Types of Applications in Network Programming
+				=======================================================
+=>In Network Programming, we develop Two Types of Programs. They are
+						1. Server Side Program
+						2. Client Side Program
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Steps for Developing  Server Side Programs
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Step-1: import socket and other modules if Required
+Step-2: Create an Object of socket at Server Side Program called Server Socket.
+Step-3: Every Server Side Program(Server Socket) Must BIND with Certain DNS/IP Address  and Port Number.
+Step-4: Every Server Side Program(Server Socket)  must be CONFIGURED in such way that to How Many Client Side 
+              Program It can Communicate.
+Step-5: Every Server Side Program(Server Socket)  must be ACCEPT the Request of Client Side Program (Client Socket)
+Step-6: Every Server Side Program(Server Socket)  must be READ Request of Client Side Program, PROCESS and Gives 
+              RESPONSE back to Client Side Program.
+Step-7:  Repeat Step-5 and Step-6 Until All Requests of Client Side Program Completed.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Steps for Developing  Client Side Programs
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Step-1: import socket and other modules if Required
+Step-2: Create an Object of socket at Client Side Program called Client Socket.
+Step-3: Every Client Side Program (Client Socket) Must get CONNECTION from Server Side Program by passing ( DNS/IP 
+              Address,Port Number)
+Step-4: Every Client Side Program (Client Socket) Must make Request to the Server Side Program (Server Socket)
+Step-5: Every Client Side Program (Client Socket) Must Receive the Response from Server Side Program (Server Socket).
+Step-6: Repeat Step-4 and Step-5 Until All Requests of Client Side Program Completed.
+---------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,36 @@
+				========================================================
+					Working with Anonymous functions OR Lambda Functions
+				========================================================
+=>The Anonymous functions are those which does not contain any Name Explicitly OR Un-Known Functions are Called 
+    Anonymous functions
+=>The Purpose of Anonymous Function is that "To Perform Instant Operations".
+=>The Instant Operations are those which are used at that Point of Time Only and No longer Interested to Use in Other 
+     Part of the Application OR Project.
+=>To Define Anonymous Functions, we a keyword called lambda and hence Anonymous Functions are called Lambda 
+    Functions.
+=>Programatically, Anonymous Functions Contains Single Executable Statement only (never contains multiple statements).
+=>The Anonymous Functions Returns the Result Automatically OR Implicitly( No Need to use return statement).
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax:             varname=lambda parms-list : Expression
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Explanation
+-----------------------------------
+=>Here Varname Represents an Object and whose type is <class, 'function'> and varname can be as Anonymous 
+    Function call.
+=>Here lambda is a Keyword used for Defining Anonymous Functions.
+=>Here Params-list represents List of Formal Parameters which are used for Storing the Inputs coming from Function 
+    Call.
+=>Here 'Expression'  Represents Single Executable Statement. 
+=>The executtion process of Anonymous Functions is that PVM Executes single executable Statement and whose result Returns Automatically OR Implicitly. No Need to write return statement.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Question:  Define Function for Adding of Two Numbers
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+By using Normal Function						By using Anonymous Function
+------------------------------------------				---------------------------------------------------------
+def  addop(a,b):							sumop=lambda a,b : a+b
+	return(a+b)
+
+#Main Program							#Main Program
+res=addop(10,20) # Function Call			res=sumop(10,20)
+print("sum=",res)							print("Sum=",res)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,15 @@
+#Program for Demonstrating the Functional Relational Operators
+#RelationalOpEx1.py
+a=float(input("Enter Value of a:"))
+b=float(input("Enter Value of b:"))
+print("*"*50)
+print("\t\tResults of Relational Operators")
+print("*"*50)
+print("\t\t{} > {} = {}".format(a,b,a>b))
+print("\t\t{} < {} = {}".format(a,b,a<b))
+print("\t\t{} =={} = {}".format(a,b,a==b))
+print("\t\t{} !={} = {}".format(a,b,a!=b))
+print("\t\t{} >={} = {}".format(a,b,a>=b))
+print("\t\t{} <={} = {}".format(a,b,a<=b))
+print("*"*50)
+#Here a>b, a<b , a==b, a!=b a>=b  a<=b are called Relational Expression (Test Cond)

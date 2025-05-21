@@ -1,0 +1,16 @@
+
+One Requirement: Generate Month of a Calendar
+
+			C,C++----------450 + Lines of Code--Very Complex to write the Code
+			Java, C#.net---->25 Lines of Code----Easy to write Code
+			PYTHON---------- 2 Lines------------------Dead Easy 
+							Less Lines of Code and gives More Meaning due to More Modules
+
+Libraries: It is the Source where the Pre-Defined Code is Present
+		 So that Programmer can Re-Use the Pre-Defined Code from Libraries.
+
+C,C++---Libraries are Called Header Files
+Java------Libraries are Called Packages
+PYTHON--Libraries are Called Modules and Packages
+
+"Learning PYTHON is nothing But Learning about MODULES"

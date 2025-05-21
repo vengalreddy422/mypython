@@ -1,0 +1,24 @@
+INFO:root:**************************************************
+INFO:root:		STUDENT MARKS REPORT
+INFO:root:**************************************************
+INFO:root:	Student Number:100
+INFO:root:	Student Name:Guido Van Rossum
+INFO:root:	Student Marks in C:60
+INFO:root:	Student Marks in C++:90
+INFO:root:	Student Marks in Python:99
+INFO:root:	Student Total Marks :249
+INFO:root:	Student Percentage of Marks :83.0
+INFO:root:	Student Grade : FIRST
+INFO:root:**************************************************
+INFO:root:**************************************************
+INFO:root:		STUDENT MARKS REPORT
+INFO:root:**************************************************
+INFO:root:	Student Number:101
+INFO:root:	Student Name:Travis
+INFO:root:	Student Marks in C:90
+INFO:root:	Student Marks in C++:39
+INFO:root:	Student Marks in Python:100
+INFO:root:	Student Total Marks :229
+INFO:root:	Student Percentage of Marks :76.33333333333333
+INFO:root:	Student Grade : FAIL
+INFO:root:**************************************************

@@ -1,0 +1,43 @@
+				===========================================================
+					Inheriting the Features of Base Class into Derived Class
+				===========================================================
+=>To Inherit the Features of Base Class into Derived Class, we use the following Syntax:
+					class <clsname-1>:
+						----------------------
+						----------------------
+					class <clsname-2>:
+						-------------------
+						-------------------
+					class <clsname-3>:
+						-------------------
+						-------------------
+					-------------------------------
+					class <clsname-n>:
+						-------------------
+						-------------------
+					class <clsname-n+1>(clsname-1,clsname-2,....,clsname-n):
+						-------------------
+						-------------------
+****************************
+Explanation
+****************************
+=>Here clsname-1,clsname-2,....,clsname-n are called Base Classes.
+=>Here clsname-n+1 Represents Name of the Derived Class.
+=>Here All features of Base Classes clsname-1,clsname-2,....,clsname-n are Inherited into Derived Class clsname-n+1 and 
+    they are Virtually and we can acesses them w.r.t object OR Class name.
+=>When we develop any Inheritance Application, It is always Recommended to create an object of Bottom Most Derived 
+    Class bcoz It Inherits the Features of Intermediate Base Class(es) and Top Most Base Class.
+=>For Each and Every Class, There exist an Implicit  Pre-Defined Super Class called 'object' and It provided Garbage Collection Facility.
+=>Hence for all Data Types, whose super type is 'object'.
+*****************************************************************************************
+
+
+
+
+
+
+
+
+
+
+

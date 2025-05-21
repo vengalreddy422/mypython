@@ -1,0 +1,45 @@
+
+					Python with Oracle Project
+			======================================================
+					Student Information System
+			======================================================
+					1. Add New Student
+					2. Delete Student
+					3. Update Student Details
+					4. Search Student Deatils
+					5. View Single Student Deatils
+					6. View All Student Deatils
+					7. Exit
+			======================================================
+				Enter UR Choice:
+			======================================================
+File System
+-----------------------
+1. StudentMenu.py<--File Name and Module Name
+	    menu()
+2. StudentAdd.py<--File Name and Module Name
+		recordadd()
+3. StudentDelete.py<--File Name and Module Name
+		recorddelete()
+4. StudentUpdate.py<--File Name and Module Name
+		recordupdate()
+5. StudentSearch.py<--File Name and Module Name
+		recordsearch()
+6. StudentDetailsView.py<--File Name and Module Name
+		recordview()
+		recordsview()
+7. StudentInformationSystem.py (Main program)
+
+
+	NOTE: Choose the Table Name--Student
+**************************************************
+	STNO	NAME	MARKS	COLNAME
+**************************************************
+	100		RS		23.45		JNTU	
+	200		TR		45.67		OUCET	
+	300		JH		34.56		CU	
+	400		NB		55.55		JNTU	
+	125		UB		44.44		OCET	
+	125		PW		33.44		MCU	
+	175		KV		11.11		OUCET	
+**************************************************

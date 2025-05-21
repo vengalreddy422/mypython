@@ -1,0 +1,37 @@
+-------------------------------------------------------------
+C, C++ Prog Lang Execution Env
+--------------------------------------------------------------------------------------------------------------------------
+Data Types: The purpose of Data types in any Program Lang is that "To allocate Memory space in Main Memory of Computer for Storing the Inputs"
+		-----------------------		-----------------------		---------------------------
+		   Data Type			   MS-OS (DOS)			UNIX
+		-----------------------		-----------------------		---------------------------
+			int					2 bytes				4 bytes
+			float					4 bytes with 7DP		8 bytes with 7 DP
+			double				8 bytes with 15 DP		16 bytes with 15 dp
+			char					1					1
+=>In C, C++ Prog Lang, Data Types and Memory Spaces Differs from One OS to Another OS and these lang are called 			Platform Dependent Lang.
+--------------------------------------------------------------------------------------------------------------------------
+Java Prog Lang Execution Env
+--------------------------------------------------------------------------------------------------------------------------
+Data Types: The purpose of Data types in any Program Lang is that "To allocate Memory space in Main Memory of Computer for Storing the Inputs"
+		-----------------------		-----------------------		---------------------------
+		   Data Type			   MS-OS (DOS)			UNIX
+		-----------------------		-----------------------		---------------------------
+			byte					1					1
+			short				2					2
+			int					4					4
+			long					8					8
+			float					4 with 7DP			4 with 7DP
+			double				8 with 15 DP			8 with 15 DP
+			char					2					2
+			boolean				0					0
+
+=>In Java  Prog Lang, The Data Types Takes Same Memory Space on all Types of OSes. Hence Java and Its are belongs to Platform Indepedent.
+=>Java Prog Contains Limitations:
+				1. Java Data type allows us to Store Limited Values due to Memory Restrictions
+				2.Java Data Types allows us to Sore Single Value But not able to store Multiple values.
+=>In Java Programming to Store Multiple Values in Single Variable(Called Object), we go for Programmer-Defined Data Types.
+--------------------------------------------------------------------------------------------------------------------------
+PYTHON Prog Lang Execution Env
+--------------------------------------------------------------------------------------------------------------------------
+
